@@ -117,15 +117,15 @@
                                 </asp:Panel>
                                 
                                <li class="nav-item">
-                                    <a href="/Forms/Ventas.aspx" class="nav-link">
+                                    <a href="/Forms/Productos.aspx" class="nav-link">
                                         <i class="fa fa-check-square" aria-hidden="true"></i>
-                                        <p>Ingreso de Productos</p>
+                                        <p>Maestro de Productos</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="/Forms/FrmVentaBoletosVuelo.aspx" class="nav-link">
+                                    <a href="/Forms/IngresoInventario.aspx" class="nav-link">
                                         <i class="nav-icon fab fa-sellsy"></i>
-                                        <p>Venta de Productos</p>
+                                        <p>Ingreso de Productos</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
