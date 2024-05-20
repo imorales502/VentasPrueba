@@ -2182,7 +2182,8 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Forms\Ventas.aspx" />
+    <Content Include="Forms\IngresoInventario.aspx" />
+    <Content Include="Forms\Productos.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -2515,6 +2516,7 @@
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Db\CadenaDb.cs" />
+    <Compile Include="Db\ClienteDAL.cs" />
     <Compile Include="Db\ProductosDAL.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -2523,13 +2525,21 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Entidad\Cliente.cs" />
     <Compile Include="Entidad\Productos.cs" />
-    <Compile Include="Forms\Ventas.aspx.cs">
-      <DependentUpon>Ventas.aspx</DependentUpon>
+    <Compile Include="Forms\IngresoInventario.aspx.cs">
+      <DependentUpon>IngresoInventario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Forms\Ventas.aspx.designer.cs">
-      <DependentUpon>Ventas.aspx</DependentUpon>
+    <Compile Include="Forms\IngresoInventario.aspx.designer.cs">
+      <DependentUpon>IngresoInventario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Productos.aspx.cs">
+      <DependentUpon>Productos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Productos.aspx.designer.cs">
+      <DependentUpon>Productos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
